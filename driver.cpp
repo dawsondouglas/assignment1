@@ -63,7 +63,7 @@ int main(int argc, char* argv[])
 
     if (wordCount == -1)
     {
-        cout << "The file " + filename + " could not be opened";
+        cout << "The file " + filename + " could not be opened.";
         return -1;
     }
 
