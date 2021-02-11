@@ -79,7 +79,7 @@ int main(int argc, char* argv[])
     cout << "There are " << fileLetters << " letters in your file.\n";
     cout << "There are " << upperCaseLetters << " upper case letters in your file.\n";
     cout << "There are " << lettersBetween << " letters between 'a' and 'f'.\n";
-    cout << "The longest word in this file is \"" << longestWord << "\".";
+    cout << "The longest word in this file is \"" << longestWord << \"";
 
     return 0;
 }
